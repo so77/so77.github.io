@@ -1,0 +1,88 @@
+html {
+  background: url("../img/haikei.jpg");
+  background-size: cover;
+ }
+ div{
+  text-align:center;
+ }
+
+ p#title{
+  text-align:center;
+  font-size:90px;
+  font-family:sans-serif;
+  color:#FFF;
+  text-shadow:0px 0px 10px #FFF;
+ }
+ p#mozi1{
+  font-size:25px;
+  font-weight: bold;
+  text-align:center;
+  font-family:sans-serif;
+  color:#888888;
+  text-shadow:0px 0px 10px#a1a1ce;
+ }
+ p#mozi2{
+  font-size:25px;
+  font-weight: bold;
+  text-align:center;
+  font-family:sans-serif;
+  color:#888888;
+  text-shadow:0px 0px 10px#a1a1ce;
+ }
+ 
+ .button {
+  font-size:50px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  padding: .5em 4em;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+.button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-hover);
+  padding: .5em 4em;
+  color: #fff;
+  transform: rotateX(-360deg);
+  transition: all .4s;
+  opacity: 0;
+}
+
+.button span {
+  display: inline-block;
+  transition: all .4s;
+}
+.button:hover::after {
+  transform: rotateX(0);
+  opacity: 1;
+}
+.button:hover span {
+  transform: rotateX(-360deg);
+  opacity: 0;
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+h2{
+  padding: .5em 4em;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+h3{
+  padding: .5em 4em;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
