@@ -10,19 +10,19 @@ $(function(){
  $('#mozi2').fadeIn(4000);
  });
 
- if (window.matchMedia( "(max-width: 1000px)" ).matches) {
+ if (window.matchMedia( "(max-height: 1500px)" ).matches) {
    var particles = Particles.init({
     selector: '.background',
     sizeVariations: 10,
     color: ['#00bbdd', '#404B69', '#DBEDF3'],
-    connectParticles: false
+    connectParticles: true
     });
   }else{
      var particles = Particles.init({
       selector: '.background',
       sizeVariations: 10,
       color: ['#00bbdd', '#404B69', '#DBEDF3'],
-      connectParticles: true
+      connectParticles: false
       });
 
   }
