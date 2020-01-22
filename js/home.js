@@ -10,21 +10,16 @@ $(function(){
  $('#mozi2').fadeIn(4000);
  });
 
- if (window.matchMedia( "(max-hight:1200px)" ).matches) {
+ 
    var particles = Particles.init({
     selector: '.background',
     sizeVariations: 10,
     color: ['#00bbdd', '#404B69', '#DBEDF3'],
     connectParticles: false
     });
-  }else{
-     var particles = Particles.init({
-      selector: '.background',
-      sizeVariations: 10,
-      color: ['#00bbdd', '#404B69', '#DBEDF3'],
-      connectParticles: true
-      });
-  }
+
+ 
+ 
 $('h3').delay(5000).queue(function(){
   $(this).text("　　Λ　　");
 });
