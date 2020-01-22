@@ -2,7 +2,7 @@
   /*0px以上で適用する内容*/
 }
 
-@media screen and (min-width:300px){
+@media screen and (min-height:500px){
   /*300px以上で適用する内容*/
   html {
     background: url("../img/sumahohaikei3.jpg");
