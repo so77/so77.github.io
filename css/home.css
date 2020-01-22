@@ -1,6 +1,6 @@
 
-@media screen and (min-height:1500px){
-  /*300px以上で適用する内容*/
+@media screen and (max-width:1200px){
+  /* 横が1000px以上 */
   html {
     background: url("../img/sumahohaikei3.jpg");
     background-size: cover;
@@ -16,11 +16,8 @@
     text-shadow:0px 0px 10px #FFF;
     top:10px; left:10px;
    }
-
-
 }
-
-@media screen and (max-height:1000px){
+@media screen and (min-width:1200px){
   /*600px以上で適用する内容*/
 
   html {
