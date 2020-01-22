@@ -10,7 +10,7 @@ $(function(){
  $('#mozi2').fadeIn(4000);
  });
 
- if (window.matchMedia( "(min-width:1000px)" ).matches) {
+ if (window.matchMedia( "(min-width:1200px)" ).matches) {
    var particles = Particles.init({
     selector: '.background',
     sizeVariations: 10,
