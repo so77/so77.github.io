@@ -1,6 +1,6 @@
 /* --------- PC表示用 ---------- */
 
-@media screen and (max-height:800px){
+@media screen and (min-width:1200px){
   html {
     background: url("../img/haikei.jpg");
     background-size: center;
@@ -32,7 +32,7 @@
 
 /* --------- スマホ設定 --------- */
 
-@media screen and (min-width:800px){
+@media screen and (max-width:1200px){
   html {
     background: url("../img/haikei.jpg");
     background-size: center;
@@ -47,16 +47,16 @@
     transform-origin: 50% 50%;
     margin: 1rem 0 !important;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
   }
   .img_boxB{
     animation: img_box_9955 4s linear infinite;
     transform-origin: 50% 50%;
     margin: 5rem 0 !important;
     border-radius: 50%;  
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
   }
   @keyframes img_box_9955 {
     0% { transform: translateY(0) }
