@@ -90,6 +90,9 @@
     text-decoration: none;
     outline: none;
   }
+  phone_area{
+    display:none;
+  }
 }
 
 
@@ -101,6 +104,7 @@
   html {
     background: url("../img/sumahohaikei3.jpg");
     background-size: cover;
+  }
     div{
       text-align:center;
      }
@@ -185,4 +189,7 @@
       text-decoration: none;
       outline: none;
     }
-}
+    phone_area{
+      display:block;
+    }
+  }
