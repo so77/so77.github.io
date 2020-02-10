@@ -47,16 +47,16 @@
     transform-origin: 50% 50%;
     margin: 1rem 0 !important;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
   }
   .img_boxB{
     animation: img_box_9955 4s linear infinite;
     transform-origin: 50% 50%;
     margin: 5rem 0 !important;
     border-radius: 50%;  
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
   }
   @keyframes img_box_9955 {
     0% { transform: translateY(0) }
