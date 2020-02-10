@@ -1,29 +1,67 @@
-html {
-  background: url("../img/haikei.jpg");
-  background-size: center;
- }
- h1{
-  color:#FFF;
-  text-shadow:0px 0px 10px #FFF;
- }
+/* --------- PC表示用 ---------- */
 
-.img_boxA{
-  animation: img_box_9955 8s linear infinite;
-  transform-origin: 50% 50%;
-  margin: 1rem 0 !important;
-  border-radius: 50%;
-}
-.img_boxB{
-  animation: img_box_9955 4s linear infinite;
-  transform-origin: 50% 50%;
-  margin: 5rem 0 !important;
-  border-radius: 50%;  
+@media screen and (min-width:1200px){
+  html {
+    background: url("../img/haikei.jpg");
+    background-size: center;
+   }
+   h1{
+    color:#FFF;
+    text-shadow:0px 0px 10px #FFF;
+   }
+  .img_boxA{
+    animation: img_box_9955 8s linear infinite;
+    transform-origin: 50% 50%;
+    margin: 1rem 0 !important;
+    border-radius: 50%;
+  }
+  .img_boxB{
+    animation: img_box_9955 4s linear infinite;
+    transform-origin: 50% 50%;
+    margin: 5rem 0 !important;
+    border-radius: 50%;  
+  }
+  @keyframes img_box_9955 {
+    0% { transform: translateY(0) }
+    33.33333% { transform: translateY(-30px) }
+    66.66667% { transform: translateY(0) }
+    100% { transform: translateY(0) }
+  }
 }
 
- 
-@keyframes img_box_9955 {
-  0% { transform: translateY(0) }
-  33.33333% { transform: translateY(-30px) }
-  66.66667% { transform: translateY(0) }
-  100% { transform: translateY(0) }
+
+/* --------- スマホ設定 --------- */
+
+@media screen and (max-width:1200px){
+  html {
+    background: url("../img/haikei.jpg");
+    background-size: center;
+   }
+   h1{
+    color:#FFF;
+    text-shadow:0px 0px 10px #FFF;
+   }
+  
+  .img_boxA{
+    animation: img_box_9955 8s linear infinite;
+    transform-origin: 50% 50%;
+    margin: 1rem 0 !important;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+  .img_boxB{
+    animation: img_box_9955 4s linear infinite;
+    transform-origin: 50% 50%;
+    margin: 5rem 0 !important;
+    border-radius: 50%;  
+    width: 300px;
+    height: 300px;
+  }
+  @keyframes img_box_9955 {
+    0% { transform: translateY(0) }
+    33.33333% { transform: translateY(-30px) }
+    66.66667% { transform: translateY(0) }
+    100% { transform: translateY(0) }
+  }
 }
