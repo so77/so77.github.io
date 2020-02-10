@@ -90,9 +90,6 @@
     text-decoration: none;
     outline: none;
   }
-  phone_area{
-    display:none;
-  }
 }
 
 
@@ -188,8 +185,5 @@
       color: #fff;
       text-decoration: none;
       outline: none;
-    }
-    phone_area{
-      display:block;
     }
   }
