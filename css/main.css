@@ -1,6 +1,6 @@
 /* --------- PC表示用 ---------- */
 
-@media screen and (min-width:1500px){
+@media screen and (max-height:800px){
   html {
     background: url("../img/haikei.jpg");
     background-size: center;
@@ -32,7 +32,7 @@
 
 /* --------- スマホ設定 --------- */
 
-@media screen and (max-width:1500px){
+@media screen and (min-width:800px){
   html {
     background: url("../img/haikei.jpg");
     background-size: center;
