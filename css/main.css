@@ -1,7 +1,6 @@
 /* --------- PC表示用 ---------- */
 
-
-@media screen and (min-width:1200px){
+@media screen and (min-width:1300px){
   html {
     background: url("../img/haikei.jpg");
     background-size: center;
@@ -33,7 +32,7 @@
 
 /* --------- スマホ設定 --------- */
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1300px){
   html {
     background: url("../img/haikei.jpg");
     background-size: center;
@@ -61,7 +60,7 @@
   }
   @keyframes img_box_9955 {
     0% { transform: translateY(0) }
-    33.33333% { transform: translateY(-30px) }
+    33.33333% { transform: translateY(-3000px) }
     66.66667% { transform: translateY(0) }
     100% { transform: translateY(0) }
   }
