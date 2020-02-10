@@ -60,7 +60,7 @@
   }
   @keyframes img_box_9955 {
     0% { transform: translateY(0) }
-    33.33333% { transform: translateY(-3000px) }
+    33.33333% { transform: translateY(-100px) }
     66.66667% { transform: translateY(0) }
     100% { transform: translateY(0) }
   }
