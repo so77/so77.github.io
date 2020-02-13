@@ -1,103 +1,217 @@
+@media screen and (min-width:1100px){
+  /* 横が1200px以上(PC) */
 
-html {  
-  background: radial-gradient(circle, #fff 0%, #bbb 85%) ; background: -webkit-radial-gradient(circle, #fff 0%, #bbb 85%); 
+  html {  
+    background: radial-gradient(circle, #fff 0%, #bbb 85%) ; background: -webkit-radial-gradient(circle, #fff 0%, #bbb 85%); 
+  }
+  
+  body{
+    height: 80%; width:80%;
+  }
+  
+  canvas{
+    height: 50%; width:50%;
+    position:absolute;
+    top:50px; right:500px;
+  }
+  
+  p{font-family: 'Verdana',sans-serif;}
+  
+  #text1{
+    font-size: 150%;
+    border-bottom: solid 3px #cce4ff;
+    position: relative;
+    position:absolute;
+    top:380px; left:850px;
+  }
+  
+  #test1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #5472cd;
+    bottom: -3px;
+    width: 20%;
+  }
+  
+  #text2{
+    border-bottom: solid 3px #cce4ff;
+    position: relative;
+    font-weight: bold;
+    font-size: 150%;
+    color: #03427e;
+    position:absolute;
+    top:380px; left:1075px;
+  }
+  #test2:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #5472cd;
+    bottom: -3px;
+    width: 20%;
+  }
+  #text3{
+    position:absolute;
+    top:440px; left:850px;
+    font-size: 30px;
+  }
+  
+  
+  .button {
+    position:absolute;
+    top:600px;
+    left:1000px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: .5em 4em;
+    border: none;
+    color: #5472cd;
+    text-decoration: none;
+    outline: none;
+  }
+  .button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(data-hover);
+    padding: .5em 4em;
+    color: #5472cd;
+    transform: rotateX(-360deg);
+    transition: all .4s;
+    opacity: 0;
+  }
+  
+  .button span {
+    display: inline-block;
+    transition: all .4s;
+  }
+  .button:hover::after {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+  .button:hover span {
+    transform: rotateX(-360deg);
+    opacity: 0;
+  }
+  
+  #Mainimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position:absolute; 
+    top:70px; left:950px;
+  }
+
 }
 
-body{
-  height: 80%; width:80%;
+@media screen and (max-width:1100px){
+  /* 横が1200px以下(スマホ) */
+
+  html {  
+    background: radial-gradient(circle, #fff 0%, #bbb 85%) ; background: -webkit-radial-gradient(circle, #fff 0%, #bbb 85%); 
+  }
+  
+  body{
+    height: 120%; width:120%;
+  }
+  
+  canvas{
+    height: 100%; width:100%;
+    position:relative;
+    top:200px; left:85px;
+  }
+  
+  p{font-family: 'Verdana',sans-serif;}
+  
+  #text1{
+    font-size: 200%;
+    border-bottom: solid 3px #cce4ff;
+    position: relative;
+    position:absolute;
+    top:1800px; left:300px;
+  }
+  
+  #test1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #5472cd;
+    bottom: -3px;
+    width: 20%;
+  }
+  
+  #text2{
+    border-bottom: solid 3px #cce4ff;
+    position: relative;
+    font-weight: bold;
+    font-size: 200%;
+    color: #03427e;
+    position:absolute;
+    top:1800px; left:600px;
+  }
+  #test2:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #5472cd;
+    bottom: -3px;
+    width: 20%;
+  }
+  #text3{
+    position:absolute;
+    top:1900px; left:300px;
+    font-size: 200%;
+  }
+  
+  
+  .button {
+    position:absolute;
+    top:1800px;
+    left:1000px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: .5em 4em;
+    border: none;
+    color: #5472cd;
+    text-decoration: none;
+    outline: none;
+  }
+  .button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(data-hover);
+    padding: .5em 4em;
+    color: #5472cd;
+    transform: rotateX(-360deg);
+    transition: all .4s;
+    opacity: 0;
+  }
+  
+  .button span {
+    display: inline-block;
+    transition: all .4s;
+  }
+  .button:hover::after {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+  .button:hover span {
+    transform: rotateX(-360deg);
+    opacity: 0;
+  }
+  
+  #Mainimg{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position:absolute; 
+    top:1200px; left:400px;
+  }
+
 }
 
-canvas{
-  height: 50%; width:50%;
-  position:absolute;
-  top:50px; right:500px;
-}
-
-p{font-family: 'Verdana',sans-serif;}
-
-#text1{
-  font-size: 150%;
-  border-bottom: solid 3px #cce4ff;
-  position: relative;
-  position:absolute;
-  top:380px; left:700px;
-}
-
-#test1:after {
-  position: absolute;
-  content: " ";
-  display: block;
-  border-bottom: solid 3px #5472cd;
-  bottom: -3px;
-  width: 20%;
-}
-
-#text2{
-  border-bottom: solid 3px #cce4ff;
-  position: relative;
-  font-weight: bold;
-  font-size: 150%;
-  color: #03427e;
-  position:absolute;
-  top:380px; left:925px;
-}
-#test2:after {
-  position: absolute;
-  content: " ";
-  display: block;
-  border-bottom: solid 3px #5472cd;
-  bottom: -3px;
-  width: 20%;
-}
-#text3{
-  position:absolute;
-  top:440px; left:700px;
-}
-
-
-.button {
-  position:absolute;
-  top:600px;
-  left:1000px;
-  font-weight: bold;
-  position: relative;
-  display: inline-block;
-  padding: .5em 4em;
-  border: none;
-  color: #5472cd;
-  text-decoration: none;
-  outline: none;
-}
-.button::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: attr(data-hover);
-  padding: .5em 4em;
-  color: #5472cd;
-  transform: rotateX(-360deg);
-  transition: all .4s;
-  opacity: 0;
-}
-
-.button span {
-  display: inline-block;
-  transition: all .4s;
-}
-.button:hover::after {
-  transform: rotateX(0);
-  opacity: 1;
-}
-.button:hover span {
-  transform: rotateX(-360deg);
-  opacity: 0;
-}
-
-#Mainimg{
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  position:absolute; 
-  top:70px; left:800px;
-}
 
