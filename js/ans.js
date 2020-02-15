@@ -47,7 +47,7 @@ if((verygood >= good) && (verygood >= hate) && (verygood >= veryhate)){
    lastanswer = "惜しかったね{; _; }"
  }else if(UserAns === "まぁまぁ" && (AIAns === "いいね！" || AIAns =="あんまり")){
    lastanswer = "惜しかったね{; _; }"
- }else if(UserAns === "あんまり" && (AIAns === "あんまり" || AIAns =="う～ん")){
+ }else if(UserAns === "あんまり" && (AIAns === "まぁまぁ" || AIAns =="う～ん")){
    lastanswer = "惜しかったね{; _; }"
  }else if(UserAns === "う～ん" && AIAns === "あんまり"){
   lastanswer = "惜しかったね{; _; }"
